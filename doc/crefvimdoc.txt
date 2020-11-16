@@ -152,8 +152,8 @@ to view help:
                            Memory aid cr: (c)-(r)eference
   <Leader>cw:              prompt for word CRefVim should search for
                            Memory aid cw: (c)-reference (w)hat
-  <Leader>cc:              jump to table of contents of the C-reference manual
-                           Memory aid cc: (c)-reference (c)ontents
+  <Leader>cx:              jump to table of contents of the C-reference manual
+                           Memory aid cx: (c)-reference e(x)tensive contents
 
 Note: by default <Leader> is \, e.g. press \cr to invoke C-reference
 
@@ -187,7 +187,7 @@ taken.
   - <Plug>CRV_CRefVimInvoke
     mapping to let Vim jump to the contents of the C-reference manual
     default:
-      map <silent> <unique> <Leader>cc <Plug>CRV_CRefVimInvoke
+      map <silent> <unique> <Leader>cx <Plug>CRV_CRefVimInvoke
   
 
 
